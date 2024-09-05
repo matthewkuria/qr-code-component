@@ -2,16 +2,16 @@ import qrImage from "/image-qr-code.png"
 
 export default function Card() {
     return (
-        <div className=" p-2 bg-white rounded-lg h-[400px] w-[300px] flex flex-col ">
+        <div className=" p-2 bg-white rounded-lg h-[500px] md:h-[400px] md:w-[300px] flex flex-col items-center">
             <img src={qrImage}
                 alt="the qr-code image"
-                className="rounded-xl max-w-xs max-h-52"
+                className=" flex rounded-xl w-80 h-64"
                 width="auto"
-                height={20}
+                height="auto"
             />
-            <div className="text-left p-4">
+            <div className="text-left p-5 ">
                 <h1 className="font-bold">Improve your front-end skills by building projects</h1>
-                <p className="">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+                <p className="text-slate-500 font-normal text-center py-1">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
             </div>
         </div>
     )

@@ -3,7 +3,7 @@ import Card from './components/card'
 function App() {
 
   return (
-    <main className="flex justify-center items-center">
+    <main className="flex flex-col justify-center items-center mt-10 ">
         <Card />
     </main>
   )
