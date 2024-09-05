@@ -9,7 +9,7 @@ export default function Card() {
                 width="auto"
                 height="auto"
             />
-            <div className="text-left p-5 ">
+            <div className="text-left p-5">
                 <h1 className="font-bold">Improve your front-end skills by building projects</h1>
                 <p className="text-slate-500 font-normal text-center py-1">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
             </div>
