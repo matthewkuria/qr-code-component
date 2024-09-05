@@ -5,7 +5,7 @@ export default function Card() {
         <div className=" p-2 bg-white rounded-lg h-[500px] md:h-[400px] md:w-[300px] flex flex-col items-center">
             <img src={qrImage}
                 alt="the qr-code image"
-                className=" flex rounded-xl w-80 h-64"
+                className=" flex rounded-xl w-96 md:w-80 md:h-64 "
                 width="auto"
                 height="auto"
             />
